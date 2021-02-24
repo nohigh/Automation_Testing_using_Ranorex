@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="23.01s"
+		durationms="23014"
+		type="root"
+		rid="2fad83cd703ab362"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DragosN"
+		rxversion="9.3.1.0"
+		host="WIN-KQS0RV6BMUN"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3280x1080"
+		timestamp="5/18/2020 8:07:47 PM"
+		timestampiso="2020-05-18T17:07:47"
+		endtime="5/18/2020 8:08:10 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login_as_admin_and_activate_user">
+		<detail>
+			Login_as_admin_and_activate_user
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.705"
+			timeRelativeToTestModuleStartTime="00:05.705"
+			timeWallClock="20:07:53"
+			time="00:05.705"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.AccountMenu' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//a[#'account-menu']"
+				itempath=".//a[#'account-menu']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.AccountMenu"
+				id="8a8e12deebaa4e7abf73e47dd9f62aad"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.495"
+			timeRelativeToTestModuleStartTime="00:06.495"
+			timeWallClock="20:07:54"
+			time="00:06.495"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AccountMenu' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//a[#'account-menu']"
+				itempath=".//a[#'account-menu']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.AccountMenu"
+				id="8a8e12deebaa4e7abf73e47dd9f62aad"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.787"
+			timeRelativeToTestModuleStartTime="00:06.787"
+			timeWallClock="20:07:54"
+			time="00:06.787"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Login' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//a[#'login']"
+				itempath=".//a[#'login']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Login"
+				id="5a5fc2afbba1478284b955e1da82db5b"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="88"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.227"
+			timeRelativeToTestModuleStartTime="00:07.227"
+			timeWallClock="20:07:54"
+			time="00:07.227"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Username' at 134;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div//input[#'username']"
+				itempath="body/tag[@tagname='ngb-modal-window']/div/div//input[#'username']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Username"
+				id="86a7e05f9e4f46ca8bfcdd06abade01e"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.575"
+			timeRelativeToTestModuleStartTime="00:07.575"
+			timeWallClock="20:07:55"
+			time="00:07.575"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'admin' with focus on 'ApplicationUnderTest.Username'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div//input[#'username']"
+				itempath="body/tag[@tagname='ngb-modal-window']/div/div//input[#'username']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Username"
+				id="86a7e05f9e4f46ca8bfcdd06abade01e"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="94"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.863"
+			timeRelativeToTestModuleStartTime="00:07.863"
+			timeWallClock="20:07:55"
+			time="00:07.863"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Password' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div//input[#'password']"
+				itempath="body/tag[@tagname='ngb-modal-window']/div/div//input[#'password']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Password"
+				id="603c916553b0470e86e8aab459013c2e"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="97"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.144"
+			timeRelativeToTestModuleStartTime="00:08.144"
+			timeWallClock="20:07:55"
+			time="00:08.144"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'admin' with focus on 'ApplicationUnderTest.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div//input[#'password']"
+				itempath="body/tag[@tagname='ngb-modal-window']/div/div//input[#'password']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Password"
+				id="603c916553b0470e86e8aab459013c2e"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="100"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.544"
+			timeRelativeToTestModuleStartTime="00:08.544"
+			timeWallClock="20:07:56"
+			time="00:08.544"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RememberMe' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//input[#'rememberMe']"
+				itempath=".//input[#'rememberMe']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.RememberMe"
+				id="6f4992e7cdaa4eaea933cfbc9aef80b4"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="103"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.841"
+			timeRelativeToTestModuleStartTime="00:08.841"
+			timeWallClock="20:07:56"
+			time="00:08.841"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Autentificare' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body//tag[@tagname='jhi-login-modal']/div[2]/div/div[2]/form[@action='http://192.168.1.4:8080/']/button[@innertext='Autentificare']"
+				itempath="body//tag[@tagname='jhi-login-modal']/div[2]/div/div[2]/form[@action='http://192.168.1.4:8080/']/button[@innertext='Autentificare']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Autentificare"
+				id="47873e3e64674b69bf146b7b0eafce38"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="106"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.168"
+			timeRelativeToTestModuleStartTime="00:09.168"
+			timeWallClock="20:07:56"
+			time="00:09.168"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AdminMenu' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//a[#'admin-menu']"
+				itempath=".//a[#'admin-menu']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.AdminMenu"
+				id="27b5aa56634b453ea8f6b3ee87b0d686"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="109"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.570"
+			timeRelativeToTestModuleStartTime="00:09.570"
+			timeWallClock="20:07:57"
+			time="00:09.570"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.GestiuneUtilizatori' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//div[#'navbarResponsive']/ul/li[3]/ul//span[@innertext='Gestiune utilizatori']"
+				itempath=".//div[#'navbarResponsive']/ul/li[3]/ul//span[@innertext='Gestiune utilizatori']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.GestiuneUtilizatori"
+				id="e2eae079ce5b40d7be608d593b8f54ea"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="112"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.045"
+			timeRelativeToTestModuleStartTime="00:10.045"
+			timeWallClock="20:07:57"
+			time="00:10.045"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContainerFluid.Dezactivat' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/?/?/tag[@tagname='jhi-main']/div[2]/?/?/tag[@tagname='jhi-user-mgmt']/div/div[1]/table/tbody/tr[4]/td[4]/button[@innertext='Dezactivat']"
+				itempath="?/?/tag[@tagname='jhi-user-mgmt']/div/div[1]/table/tbody/tr[4]/td[4]/button[@innertext='Dezactivat']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.ContainerFluid.Dezactivat"
+				id="dea7be6ea6344302af94af0d117aca97"
+				timeout="90000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="115"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.431"
+			timeRelativeToTestModuleStartTime="00:10.431"
+			timeWallClock="20:07:58"
+			time="00:10.431"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContainerFluid.Editare' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/?/?/tag[@tagname='jhi-main']/div[2]/?/?/tag[@tagname='jhi-user-mgmt']/div/div[1]/table/tbody/tr[4]/td[10]/div/button[2]/span[@innertext='Editare']"
+				itempath="?/?/tag[@tagname='jhi-user-mgmt']/div/div[1]/table/tbody/tr[4]/td[10]/div/button[2]/span[@innertext='Editare']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.ContainerFluid.Editare"
+				id="bb4134fde3f4464287c944755c075057"
+				timeout="90000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="118"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.785"
+			timeRelativeToTestModuleStartTime="00:10.785"
+			timeWallClock="20:07:58"
+			time="00:10.785"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ContainerFluid.OptionTag0ROLEADMIN' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/?/?/tag[@tagname='jhi-main']/div[2]//form[@name='editForm']/div[1]/div[8]/select[@name='authority']/option[@value='0: ''ROLE_ADMIN''']"
+				itempath=".//form[@name='editForm']/div[1]/div[8]/select[@name='authority']/option[@value='0: ''ROLE_ADMIN''']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.ContainerFluid.OptionTag0ROLEADMIN"
+				id="68f522116e55425886918e0272b7eecc"
+				timeout="90000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="121"
+				itemindex="13"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.012"
+			timeRelativeToTestModuleStartTime="00:23.012"
+			timeWallClock="20:08:10"
+			time="00:23.012"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

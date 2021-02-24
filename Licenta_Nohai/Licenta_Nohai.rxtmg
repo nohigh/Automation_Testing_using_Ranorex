@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Licenta_Nohai"
+      id="560b5515-f500-4790-8dad-1143393580e5"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Licenta_Nohai"
+      id="560b5515-f500-4790-8dad-1143393580e5"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

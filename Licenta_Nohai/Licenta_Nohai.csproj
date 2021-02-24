@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{75F7DB76-3D11-4219-9FC6-BF782B0A1529}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Licenta_Nohai</RootNamespace>
+    <AssemblyName>Licenta_Nohai</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>33de5cd9-570a-4c88-a131-6ee44790a0c1</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_data_to_cadru_didactic.cs">
+      <BoundTo>abfddc64-3e99-4933-87f7-f85d81bef982</BoundTo>
+      <DependentUpon>Add_data_to_cadru_didactic.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c17e245f-0415-437c-a62b-edd17110440d</id>
+    </Compile>
+    <Compile Include="Add_data_to_cadru_didactic.UserCode.cs">
+      <BoundTo>abfddc64-3e99-4933-87f7-f85d81bef982</BoundTo>
+      <DependentUpon>Add_data_to_cadru_didactic.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5ee14a7d-c439-4418-b2ab-10cbc5c14319</id>
+    </Compile>
+    <Compile Include="Add_data_to_departament_entity.cs">
+      <BoundTo>5dadf964-acc7-42f6-aa92-f0b14cca9845</BoundTo>
+      <DependentUpon>Add_data_to_departament_entity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5b6f7e32-a048-47b8-9df1-10a7f64c8873</id>
+    </Compile>
+    <Compile Include="Add_data_to_departament_entity.UserCode.cs">
+      <BoundTo>5dadf964-acc7-42f6-aa92-f0b14cca9845</BoundTo>
+      <DependentUpon>Add_data_to_departament_entity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>39ebaf78-b304-4a38-8b87-2c99c1683f2c</id>
+    </Compile>
+    <Compile Include="Add_data_to_program_studiu.cs">
+      <BoundTo>544da6c2-1da7-42f4-8cab-6aad1b9b5dff</BoundTo>
+      <DependentUpon>Add_data_to_program_studiu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>58cc1971-7882-4f81-94f9-f1cd057289e5</id>
+    </Compile>
+    <Compile Include="Add_data_to_program_studiu.UserCode.cs">
+      <BoundTo>544da6c2-1da7-42f4-8cab-6aad1b9b5dff</BoundTo>
+      <DependentUpon>Add_data_to_program_studiu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0e50ae2f-2432-4c41-8435-f627dae6227b</id>
+    </Compile>
+    <Compile Include="Add_data_to_student.cs">
+      <BoundTo>8c63c8ae-bdaa-4c85-8bcf-db4b953c9c53</BoundTo>
+      <DependentUpon>Add_data_to_student.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bc456272-0fcf-4ac3-b299-747a3692d86b</id>
+    </Compile>
+    <Compile Include="Add_data_to_student.UserCode.cs">
+      <BoundTo>8c63c8ae-bdaa-4c85-8bcf-db4b953c9c53</BoundTo>
+      <DependentUpon>Add_data_to_student.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e9b44c07-147b-41fa-81de-3f78d2005ca7</id>
+    </Compile>
+    <Compile Include="Delete_created_user.cs">
+      <BoundTo>2fd66013-eaf2-43fd-ac4e-e55d0cc9be07</BoundTo>
+      <DependentUpon>Delete_created_user.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a2566a21-7973-40d9-b68c-0f4a4a2e6997</id>
+    </Compile>
+    <Compile Include="Delete_created_user.UserCode.cs">
+      <BoundTo>2fd66013-eaf2-43fd-ac4e-e55d0cc9be07</BoundTo>
+      <DependentUpon>Delete_created_user.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7a25a61d-7313-4893-b43b-66db7c178625</id>
+    </Compile>
+    <Compile Include="Delete_data_from_cadru_didactic.cs">
+      <BoundTo>eeca6fcd-1e37-4704-bbc7-59694236bc63</BoundTo>
+      <DependentUpon>Delete_data_from_cadru_didactic.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>462b6ba4-8dcc-4cad-ad45-147b0c495591</id>
+    </Compile>
+    <Compile Include="Delete_data_from_cadru_didactic.UserCode.cs">
+      <BoundTo>eeca6fcd-1e37-4704-bbc7-59694236bc63</BoundTo>
+      <DependentUpon>Delete_data_from_cadru_didactic.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>43cb310c-8e91-4a55-90c6-29f71d20cf06</id>
+    </Compile>
+    <Compile Include="Delete_data_from_departament.cs">
+      <BoundTo>03fef863-89aa-4945-9f65-2161fe1c670b</BoundTo>
+      <DependentUpon>Delete_data_from_departament.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f16e2728-f4a2-4106-8bac-5fc77fec265d</id>
+    </Compile>
+    <Compile Include="Delete_data_from_departament.UserCode.cs">
+      <BoundTo>03fef863-89aa-4945-9f65-2161fe1c670b</BoundTo>
+      <DependentUpon>Delete_data_from_departament.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>134e9f85-f886-4d98-be8a-fb2f1825c94d</id>
+    </Compile>
+    <Compile Include="Delete_data_from_program_studiu.cs">
+      <BoundTo>dffc02ed-a548-4fef-bdc3-05b752dfbc0e</BoundTo>
+      <DependentUpon>Delete_data_from_program_studiu.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f66d3414-eea5-4513-be4a-9ef45cac2dd0</id>
+    </Compile>
+    <Compile Include="Delete_data_from_program_studiu.UserCode.cs">
+      <BoundTo>dffc02ed-a548-4fef-bdc3-05b752dfbc0e</BoundTo>
+      <DependentUpon>Delete_data_from_program_studiu.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>221fabf9-4b79-4880-a0b3-9bea44727741</id>
+    </Compile>
+    <Compile Include="Delete_data_from_student.cs">
+      <BoundTo>a711a72f-c492-4b0a-b7a1-4851ceeb1517</BoundTo>
+      <DependentUpon>Delete_data_from_student.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3d09e7d9-80db-4065-9f71-a8c0a333d540</id>
+    </Compile>
+    <Compile Include="Delete_data_from_student.UserCode.cs">
+      <BoundTo>a711a72f-c492-4b0a-b7a1-4851ceeb1517</BoundTo>
+      <DependentUpon>Delete_data_from_student.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6043d4d3-d7fd-4d0e-9195-de1c1ec7b665</id>
+    </Compile>
+    <Compile Include="Open_cadru_didactic.cs">
+      <BoundTo>ceaa10f6-5fc7-4d6f-b40e-22513b1a7949</BoundTo>
+      <DependentUpon>Open_cadru_didactic.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c70e4719-c9b1-4d0c-b04d-fa08fce622dd</id>
+    </Compile>
+    <Compile Include="Open_cadru_didactic.UserCode.cs">
+      <BoundTo>ceaa10f6-5fc7-4d6f-b40e-22513b1a7949</BoundTo>
+      <DependentUpon>Open_cadru_didactic.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4838f30e-b529-4339-a2b9-ebc664cb74e1</id>
+    </Compile>
+    <Compile Include="Open_program_studiu_entity.cs">
+      <BoundTo>8e9fea43-97ac-4556-aaeb-f17741875f39</BoundTo>
+      <DependentUpon>Open_program_studiu_entity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>72f6dca3-c08c-476f-9749-45a7930b0da5</id>
+    </Compile>
+    <Compile Include="Open_program_studiu_entity.UserCode.cs">
+      <BoundTo>8e9fea43-97ac-4556-aaeb-f17741875f39</BoundTo>
+      <DependentUpon>Open_program_studiu_entity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea96e4e4-3775-4ead-9416-cce0b0ee71f7</id>
+    </Compile>
+    <Compile Include="Open_departament_entity.cs">
+      <BoundTo>14b7b1d4-d3e0-497b-b37a-45e41909a6cc</BoundTo>
+      <DependentUpon>Open_departament_entity.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c17c04f6-251f-4d6b-9f70-8784fe879300</id>
+    </Compile>
+    <Compile Include="Open_departament_entity.UserCode.cs">
+      <BoundTo>14b7b1d4-d3e0-497b-b37a-45e41909a6cc</BoundTo>
+      <DependentUpon>Open_departament_entity.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ffe512ed-d289-456a-9d74-7c5fa91b383f</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>daf92ed2-898a-4eb3-b349-5905192817a5</id>
+    </Compile>
+    <Compile Include="Change_name_and_surname.cs">
+      <BoundTo>d4e7a6a9-bd40-42bd-81c7-c22a755b9be0</BoundTo>
+      <DependentUpon>Change_name_and_surname.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dc2ea8f0-e6e5-40bd-83de-598db69bc14e</id>
+    </Compile>
+    <Compile Include="Change_name_and_surname.UserCode.cs">
+      <BoundTo>d4e7a6a9-bd40-42bd-81c7-c22a755b9be0</BoundTo>
+      <DependentUpon>Change_name_and_surname.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f15543c4-47fa-4788-9ef8-83cb27c128d4</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>b504337a-4a35-4ed0-a4f6-4900604aa573</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a035cd13-bac7-46ca-a69e-ef712e6143e6</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>b504337a-4a35-4ed0-a4f6-4900604aa573</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a01577e4-a743-44e7-a266-9f86e69f9321</id>
+    </Compile>
+    <Compile Include="Licenta_NohaiRepository.cs">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <DependentUpon>Licenta_NohaiRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>82fcfdb4-f6a5-4cfd-8a01-db38ae42f270</id>
+    </Compile>
+    <Compile Include="Login_as_admin.cs">
+      <BoundTo>aca26e70-1626-44b4-9b7d-2cf3207bd722</BoundTo>
+      <DependentUpon>Login_as_admin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8ac6d073-93e0-46fa-a98c-6b9fcb156065</id>
+    </Compile>
+    <Compile Include="Login_as_admin.UserCode.cs">
+      <BoundTo>aca26e70-1626-44b4-9b7d-2cf3207bd722</BoundTo>
+      <DependentUpon>Login_as_admin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c7b8fe40-951f-4303-bd5d-fc7704a8a5b7</id>
+    </Compile>
+    <Compile Include="Login_as_admin_and_activate_user.cs">
+      <BoundTo>94282e1b-d457-4746-9700-ab9d75fb91ad</BoundTo>
+      <DependentUpon>Login_as_admin_and_activate_user.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d7277e6b-9ba2-4fff-a06a-207a2c9f98ab</id>
+    </Compile>
+    <Compile Include="Login_as_admin_and_activate_user.UserCode.cs">
+      <BoundTo>94282e1b-d457-4746-9700-ab9d75fb91ad</BoundTo>
+      <DependentUpon>Login_as_admin_and_activate_user.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>48c270b3-524e-4354-9ec1-14736bbccc3a</id>
+    </Compile>
+    <Compile Include="Login_as_new_created_user.cs">
+      <BoundTo>c2522071-f95c-4382-b3db-a8677e122f29</BoundTo>
+      <DependentUpon>Login_as_new_created_user.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c89dc100-7b3e-4909-b891-d357fe9d76ba</id>
+    </Compile>
+    <Compile Include="Login_as_new_created_user.UserCode.cs">
+      <BoundTo>c2522071-f95c-4382-b3db-a8677e122f29</BoundTo>
+      <DependentUpon>Login_as_new_created_user.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5f05c1e5-97cc-4a0f-9187-831a62767a33</id>
+    </Compile>
+    <Compile Include="Login_as_user.cs">
+      <BoundTo>bd48e638-aa9e-46c5-91ee-0357a0a22e3d</BoundTo>
+      <DependentUpon>Login_as_user.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5c3343b8-ea2d-49d7-97af-33c67f4b0110</id>
+    </Compile>
+    <Compile Include="Login_as_user.UserCode.cs">
+      <BoundTo>bd48e638-aa9e-46c5-91ee-0357a0a22e3d</BoundTo>
+      <DependentUpon>Login_as_user.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>510e0dad-2d17-43e4-bc24-a2f520a1df09</id>
+    </Compile>
+    <Compile Include="Logout_from_admin.cs">
+      <BoundTo>84063ee2-a337-4db5-b15c-07260d32a400</BoundTo>
+      <DependentUpon>Logout_from_admin.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>759ce734-cd1a-40d5-b655-e65b4721e9ca</id>
+    </Compile>
+    <Compile Include="Logout_from_admin.UserCode.cs">
+      <BoundTo>84063ee2-a337-4db5-b15c-07260d32a400</BoundTo>
+      <DependentUpon>Logout_from_admin.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>612eae8b-6df4-4cf0-9e12-2ab4e88c6f00</id>
+    </Compile>
+    <Compile Include="Logout_from_user.cs">
+      <BoundTo>960b1ed2-da6c-4c9b-83e8-74a16ddfd1f7</BoundTo>
+      <DependentUpon>Logout_from_user.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>e4494c4f-de5b-4997-bd2f-b13476bc17f4</id>
+    </Compile>
+    <Compile Include="Logout_from_user.UserCode.cs">
+      <BoundTo>960b1ed2-da6c-4c9b-83e8-74a16ddfd1f7</BoundTo>
+      <DependentUpon>Logout_from_user.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8fb7bb3d-9730-4767-8346-06041edde6a6</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>9b04f2b6-144e-43f4-b960-d1bc378051d2</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b816a375-e620-4fc0-bb00-d1dc9e26b311</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>9b04f2b6-144e-43f4-b960-d1bc378051d2</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>88c9f95d-1c11-47ba-b9a2-c0f8594140f8</id>
+    </Compile>
+    <Compile Include="Open_Student.cs">
+      <BoundTo>6c1e69e3-b24c-430a-a96c-9b1604654040</BoundTo>
+      <DependentUpon>Open_Student.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4cf5cb5f-7fd0-401e-9f42-fc91471285a6</id>
+    </Compile>
+    <Compile Include="Open_Student.UserCode.cs">
+      <BoundTo>6c1e69e3-b24c-430a-a96c-9b1604654040</BoundTo>
+      <DependentUpon>Open_Student.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>89b6f0bc-dd57-447a-9a65-13938064ab28</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>40ed044e-ca9e-4ce0-942c-f65cf476ef56</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>fbd21369-e0b5-4ed3-8915-24c08fd07553</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5b6f3ac3-d41a-4a5c-a745-faddde96d3ef</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>fbd21369-e0b5-4ed3-8915-24c08fd07553</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4eefdb87-26e8-4c0a-b04e-cbfbacde9ce5</id>
+    </Compile>
+    <Compile Include="Register_new_user.cs">
+      <BoundTo>393bf7c8-6324-4f6d-a51d-9ebc1f8ec12b</BoundTo>
+      <DependentUpon>Register_new_user.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1e9d8503-a684-428f-8bfd-1d2d0aa65ee6</id>
+    </Compile>
+    <Compile Include="Register_new_user.UserCode.cs">
+      <BoundTo>393bf7c8-6324-4f6d-a51d-9ebc1f8ec12b</BoundTo>
+      <DependentUpon>Register_new_user.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>60e42a1f-157c-476c-b2cf-f322252389bb</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Add_data_to_cadru_didactic.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>abfddc64-3e99-4933-87f7-f85d81bef982</id>
+      <recordtableid>b7a1a41a-d80a-4d4a-8585-2cacdbb3870a</recordtableid>
+    </None>
+    <None Include="Add_data_to_departament_entity.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>5dadf964-acc7-42f6-aa92-f0b14cca9845</id>
+      <recordtableid>cbb17fdf-9c8c-450c-918b-6dd6237fc64c</recordtableid>
+    </None>
+    <Content Include="Excel_FSEGA.xlsx">
+      <Link>Excel_FSEGA.xlsx</Link>
+      <BoundTo>430ca26d-2a63-45a8-8879-f9961136e454</BoundTo>
+      <DependentUpon>Licenta_Nohai.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2f11f7d8-1e6a-44e4-a69c-15374e0c5fbc</id>
+    </Content>
+    <None Include="Add_data_to_program_studiu.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>544da6c2-1da7-42f4-8cab-6aad1b9b5dff</id>
+      <recordtableid>f2550a60-d795-44c3-85aa-a7796ccc6404</recordtableid>
+    </None>
+    <None Include="Add_data_to_student.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>8c63c8ae-bdaa-4c85-8bcf-db4b953c9c53</id>
+      <recordtableid>e8f42997-8872-4a64-90b3-2e2994b983cb</recordtableid>
+    </None>
+    <None Include="Delete_created_user.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>2fd66013-eaf2-43fd-ac4e-e55d0cc9be07</id>
+      <recordtableid>7deb3099-df37-4277-9b8d-1d29138e6d6f</recordtableid>
+    </None>
+    <None Include="Delete_data_from_cadru_didactic.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>eeca6fcd-1e37-4704-bbc7-59694236bc63</id>
+      <recordtableid>e1e9c3fd-1636-403d-aa31-a8d840772b2a</recordtableid>
+    </None>
+    <None Include="Delete_data_from_departament.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>03fef863-89aa-4945-9f65-2161fe1c670b</id>
+      <recordtableid>dce521e1-a459-450c-8eac-2825b62bcdab</recordtableid>
+    </None>
+    <None Include="Delete_data_from_program_studiu.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>dffc02ed-a548-4fef-bdc3-05b752dfbc0e</id>
+      <recordtableid>9061ed8d-406e-4dfb-97d2-51ea9cd127f0</recordtableid>
+    </None>
+    <None Include="Delete_data_from_student.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>a711a72f-c492-4b0a-b7a1-4851ceeb1517</id>
+      <recordtableid>9840a8fe-5658-4b35-971b-cc56123ceb1a</recordtableid>
+    </None>
+    <None Include="Open_cadru_didactic.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>ceaa10f6-5fc7-4d6f-b40e-22513b1a7949</id>
+      <recordtableid>818cd76c-4816-436e-9fbc-4c0f1f7c8264</recordtableid>
+    </None>
+    <None Include="Open_program_studiu_entity.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>8e9fea43-97ac-4556-aaeb-f17741875f39</id>
+      <recordtableid>e3b80a21-cf74-477a-9c58-ec1a78e0eb6d</recordtableid>
+    </None>
+    <None Include="Open_departament_entity.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>14b7b1d4-d3e0-497b-b37a-45e41909a6cc</id>
+      <recordtableid>71a9eae1-7088-4157-8cd5-4305529ab1e2</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>1b6282d9-5706-433d-918e-6ff9d4c497a7</id>
+    </None>
+    <None Include="Change_name_and_surname.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>d4e7a6a9-bd40-42bd-81c7-c22a755b9be0</id>
+      <recordtableid>4ad810b2-9714-496d-beec-970ef601e9e2</recordtableid>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>b504337a-4a35-4ed0-a4f6-4900604aa573</id>
+      <recordtableid>a3be38fe-b34e-4716-aab6-7f74a9e017d2</recordtableid>
+    </None>
+    <None Include="Licenta_NohaiRepository.rximg">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <DependentUpon>Licenta_NohaiRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>62f8cc81-40d1-4f24-b272-77565f445a33</id>
+    </None>
+    <None Include="Licenta_NohaiRepository.rxrep">
+      <id>33de5cd9-570a-4c88-a131-6ee44790a0c1</id>
+      <repoid>9985b0ef-60ed-4c32-9dcd-942f6dd336d9</repoid>
+      <reporootid>940bae96-c8f7-487f-bbcd-0944a724c83b</reporootid>
+    </None>
+    <None Include="Login_as_admin.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>aca26e70-1626-44b4-9b7d-2cf3207bd722</id>
+      <recordtableid>349a35a9-7673-468d-9f42-57c46b514280</recordtableid>
+    </None>
+    <None Include="Login_as_admin_and_activate_user.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>94282e1b-d457-4746-9700-ab9d75fb91ad</id>
+      <recordtableid>9197a1e5-7502-4c02-a232-61d93fc2fe2d</recordtableid>
+    </None>
+    <None Include="Login_as_new_created_user.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>c2522071-f95c-4382-b3db-a8677e122f29</id>
+      <recordtableid>fd586983-cd60-4928-9584-d02dd9d04809</recordtableid>
+    </None>
+    <None Include="Login_as_user.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>bd48e638-aa9e-46c5-91ee-0357a0a22e3d</id>
+      <recordtableid>feedd550-62c4-48dc-b2aa-6981d89cb285</recordtableid>
+    </None>
+    <None Include="Logout_from_admin.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>84063ee2-a337-4db5-b15c-07260d32a400</id>
+      <recordtableid>8e4fc85f-607e-43f4-8448-2fb0f9f2ce12</recordtableid>
+    </None>
+    <None Include="Logout_from_user.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>960b1ed2-da6c-4c9b-83e8-74a16ddfd1f7</id>
+      <recordtableid>cbb207fe-c6c2-4adb-bcf4-33dc0bcf6fa0</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>9b04f2b6-144e-43f4-b960-d1bc378051d2</id>
+      <recordtableid>12f01782-315b-4270-81e5-b7f81f268611</recordtableid>
+    </None>
+    <None Include="Open_Student.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>6c1e69e3-b24c-430a-a96c-9b1604654040</id>
+      <recordtableid>3a9efe8e-e81a-4cdf-89a6-9ad76d224baf</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>fbd21369-e0b5-4ed3-8915-24c08fd07553</id>
+      <recordtableid>e36459b1-a96f-4282-8b47-7411220b6218</recordtableid>
+    </None>
+    <None Include="Register_new_user.rxrec">
+      <BoundTo>33de5cd9-570a-4c88-a131-6ee44790a0c1</BoundTo>
+      <id>393bf7c8-6324-4f6d-a51d-9ebc1f8ec12b</id>
+      <recordtableid>6b078cab-feeb-424f-8238-01d6fb328dce</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Licenta_Nohai.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>ed08061a-f7b8-4010-8917-3090e3eefe83</id>
+    </Content>
+    <Content Include="Licenta_Nohai.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>430ca26d-2a63-45a8-8879-f9961136e454</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

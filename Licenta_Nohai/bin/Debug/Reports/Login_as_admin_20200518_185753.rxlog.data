@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="28.05s"
+		durationms="28050"
+		type="root"
+		rid="9d5fdc77fc0ac38"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DragosN"
+		rxversion="9.3.1.0"
+		host="WIN-KQS0RV6BMUN"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/18/2020 6:57:56 PM"
+		timestampiso="2020-05-18T15:57:56"
+		endtime="5/18/2020 6:58:24 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login_as_admin">
+		<detail>
+			Login_as_admin
+		</detail>
+		<errormessage>
+			Failed to find item 'Licenta_NohaiRepository.ApplicationUnderTest.Username'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.892"
+			timeRelativeToTestModuleStartTime="00:04.892"
+			timeWallClock="18:58:01"
+			time="00:04.892"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.CardJhCard.Autentificați1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='jhi-main']/div[2]/div/tag[@tagname='jhi-home']/div/div[2]/div/?/?/a[@innertext='autentificați']"
+				itempath="tag[@tagname='jhi-home']/div/div[2]/div/?/?/a[@innertext='autentificați']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.CardJhCard.Autentificați1"
+				id="92fd7f82e80846a09912ad562a0a0249"
+				timeout="90000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.021"
+			timeRelativeToTestModuleStartTime="00:06.021"
+			timeWallClock="18:58:02"
+			time="00:06.021"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'ApplicationUnderTest.CardJhCard.Autentificați1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='jhi-main']/div[2]/div/tag[@tagname='jhi-home']/div/div[2]/div/?/?/a[@innertext='autentificați']"
+				itempath="tag[@tagname='jhi-home']/div/div[2]/div/?/?/a[@innertext='autentificați']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.CardJhCard.Autentificați1"
+				id="92fd7f82e80846a09912ad562a0a0249"
+				timeout="90000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="85"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.164"
+			timeRelativeToTestModuleStartTime="00:06.164"
+			timeWallClock="18:58:02"
+			time="00:06.164"
+			level="Info"
+			category="Mouse"
+			errimg="images_Login_as_213c1f21\Login_as_213c1f21_0767d550_trace.jpg"
+			errthumb="images_Login_as_213c1f21\Login_as_213c1f21_0767d550_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Username' at 553;205.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//input[#'username']"
+				itempath=".//input[#'username']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Username"
+				id="86a7e05f9e4f46ca8bfcdd06abade01e"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="91"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.312"
+			timeRelativeToTestModuleStartTime="00:06.312"
+			timeWallClock="18:58:02"
+			time="00:06.312"
+			level="Warn"
+			category="Click"
+			errimg="images_Login_as_213c1f21\Login_as_4f4a5477_rxlog.jpg"
+			errthumb="images_Login_as_213c1f21\Login_as_4f4a5477_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="92"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.501"
+			timeRelativeToTestModuleStartTime="00:06.501"
+			timeWallClock="18:58:02"
+			time="00:06.501"
+			level="Info"
+			category="Keyboard"
+			errimg="images_Login_as_213c1f21\Login_as_213c1f21_73db72c9_trace.jpg"
+			errthumb="images_Login_as_213c1f21\Login_as_213c1f21_73db72c9_trace_thumb.jpg">
+			<message>
+				Key sequence 'admin' with focus on 'ApplicationUnderTest.Username'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//input[#'username']"
+				itempath=".//input[#'username']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Username"
+				id="86a7e05f9e4f46ca8bfcdd06abade01e"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="94"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.877"
+			timeRelativeToTestModuleStartTime="00:27.877"
+			timeWallClock="18:58:24"
+			time="00:27.877"
+			level="Error"
+			category="Module"
+			errimg="images_Login_as_213c1f21\Login_as_213c1f21_4a79c6d4_trace.jpg"
+			errthumb="images_Login_as_213c1f21\Login_as_213c1f21_4a79c6d4_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Licenta_NohaiRepository.ApplicationUnderTest.Username'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='192.168.1.4:8080']//input[#'username']' at step 'descendant-or-self::input[#'username']' after 129 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.get_Username() in c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Licenta_NohaiRepository.cs:line 334&#13;&#10;   at Licenta_Nohai.Login_as_admin.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs:line 95&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="95"
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//input[#'username']"
+				itempath=".//input[#'username']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Username"
+				id="86a7e05f9e4f46ca8bfcdd06abade01e"
+				timeout="60000"
+				failedStep="descendant-or-self::input[#'username']"
+				bestPathPrefix="/dom[@domain='192.168.1.4:8080']"
+				loglvl="Error"
+				itemindex="4">
+			</metainfo>
+		</item>
+	</activity>
+</report>

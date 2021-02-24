@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="13.6s"
+		durationms="13600"
+		type="root"
+		rid="19a0eb860a5b7b48"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DragosN"
+		rxversion="9.3.1.0"
+		host="WIN-KQS0RV6BMUN"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/18/2020 7:04:47 PM"
+		timestampiso="2020-05-18T16:04:47"
+		endtime="5/18/2020 7:05:01 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login_as_admin">
+		<detail>
+			Login_as_admin
+		</detail>
+		<errormessage>
+			Failed to find item 'Licenta_NohaiRepository.ApplicationUnderTest.ModalContenta.Username'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.473"
+			timeRelativeToTestModuleStartTime="00:06.473"
+			timeWallClock="19:04:54"
+			time="00:06.473"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.AccountMenu' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//a[#'account-menu']"
+				itempath=".//a[#'account-menu']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.AccountMenu"
+				id="8a8e12deebaa4e7abf73e47dd9f62aad"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.145"
+			timeRelativeToTestModuleStartTime="00:08.145"
+			timeWallClock="19:04:56"
+			time="00:08.145"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.Login'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//a[#'login']"
+				itempath=".//a[#'login']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Login"
+				id="5a5fc2afbba1478284b955e1da82db5b"
+				timeout="5000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.257"
+			timeRelativeToTestModuleStartTime="00:08.257"
+			timeWallClock="19:04:56"
+			time="00:08.257"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Login' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']//a[#'login']"
+				itempath=".//a[#'login']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Login"
+				id="5a5fc2afbba1478284b955e1da82db5b"
+				timeout="60000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.864"
+			timeRelativeToTestModuleStartTime="00:08.864"
+			timeWallClock="19:04:56"
+			time="00:08.864"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.ModalContenta'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div"
+				itempath="body/tag[@tagname='ngb-modal-window']/div/div"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.ModalContenta.Self"
+				id="7fde1cdad1394c19b73c78bf42bdd46e"
+				timeout="5000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="105"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.965"
+			timeRelativeToTestModuleStartTime="00:08.965"
+			timeWallClock="19:04:56"
+			time="00:08.965"
+			level="Info"
+			category="Mouse"
+			errimg="images_Login_as_9739c151\Login_as_9739c151_b86eefdf_trace.jpg"
+			errthumb="images_Login_as_9739c151\Login_as_9739c151_b86eefdf_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ModalContenta.Username' at 553;205.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div//input[#'username']"
+				itempath=".//input[#'username']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.ModalContenta.Username"
+				id="86a7e05f9e4f46ca8bfcdd06abade01e"
+				timeout="90000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="108"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.167"
+			timeRelativeToTestModuleStartTime="00:09.167"
+			timeWallClock="19:04:57"
+			time="00:09.167"
+			level="Warn"
+			category="Click"
+			errimg="images_Login_as_9739c151\Login_as_e3e8f829_rxlog.jpg"
+			errthumb="images_Login_as_9739c151\Login_as_e3e8f829_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="109"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.658"
+			timeRelativeToTestModuleStartTime="00:09.658"
+			timeWallClock="19:04:57"
+			time="00:09.658"
+			level="Info"
+			category="Keyboard"
+			errimg="images_Login_as_9739c151\Login_as_9739c151_0b896be6_trace.jpg"
+			errthumb="images_Login_as_9739c151\Login_as_9739c151_0b896be6_trace_thumb.jpg">
+			<message>
+				Key sequence 'admin' with focus on 'ApplicationUnderTest.ModalContenta.Username'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div//input[#'username']"
+				itempath=".//input[#'username']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.ModalContenta.Username"
+				id="86a7e05f9e4f46ca8bfcdd06abade01e"
+				timeout="90000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="112"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.445"
+			timeRelativeToTestModuleStartTime="00:13.445"
+			timeWallClock="19:05:01"
+			time="00:13.445"
+			level="Error"
+			category="Module"
+			errimg="images_Login_as_9739c151\Login_as_9739c151_a6642bbe_trace.jpg"
+			errthumb="images_Login_as_9739c151\Login_as_9739c151_a6642bbe_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Licenta_NohaiRepository.ApplicationUnderTest.ModalContenta.Username'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div//input[#'username']' at step 'body' after 60 attempts within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Licenta_Nohai.Licenta_NohaiRepositoryFolders.ModalContentaFolder.get_Username() in c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Licenta_NohaiRepository.cs:line 1985&#13;&#10;   at Licenta_Nohai.Login_as_admin.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs:line 113&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="113"
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='ngb-modal-window']/div/div//input[#'username']"
+				itempath=".//input[#'username']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.ModalContenta.Username"
+				id="86a7e05f9e4f46ca8bfcdd06abade01e"
+				timeout="90000"
+				failedStep="body"
+				bestPathPrefix="/dom[@domain='192.168.1.4:8080']"
+				loglvl="Error"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>

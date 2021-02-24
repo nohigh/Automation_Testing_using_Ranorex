@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.91s"
+		durationms="9909"
+		type="root"
+		rid="25430b7a57d98b4c"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DragosN"
+		rxversion="9.3.1.0"
+		host="WIN-KQS0RV6BMUN"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/18/2020 4:35:02 PM"
+		timestampiso="2020-05-18T13:35:02"
+		endtime="5/18/2020 4:35:12 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login_as_admin">
+		<detail>
+			Login_as_admin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.710"
+			timeRelativeToTestModuleStartTime="00:05.710"
+			timeWallClock="16:35:08"
+			time="00:05.710"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 587;389.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']"
+				itempath="/dom[@domain='192.168.1.4:8080']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Self"
+				id="a72058311ecb405e904428c1388bf99a"
+				timeout="30000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.152"
+			timeRelativeToTestModuleStartTime="00:07.152"
+			timeWallClock="16:35:09"
+			time="00:07.152"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.690"
+			timeRelativeToTestModuleStartTime="00:07.690"
+			timeWallClock="16:35:10"
+			time="00:07.690"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 553;205.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']"
+				itempath="/dom[@domain='192.168.1.4:8080']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Self"
+				id="a72058311ecb405e904428c1388bf99a"
+				timeout="30000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.099"
+			timeRelativeToTestModuleStartTime="00:08.099"
+			timeWallClock="16:35:10"
+			time="00:08.099"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'admin' with focus on 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']"
+				itempath="/dom[@domain='192.168.1.4:8080']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Self"
+				id="a72058311ecb405e904428c1388bf99a"
+				timeout="30000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.409"
+			timeRelativeToTestModuleStartTime="00:08.409"
+			timeWallClock="16:35:11"
+			time="00:08.409"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 559;318.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']"
+				itempath="/dom[@domain='192.168.1.4:8080']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Self"
+				id="a72058311ecb405e904428c1388bf99a"
+				timeout="30000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="95"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.803"
+			timeRelativeToTestModuleStartTime="00:08.803"
+			timeWallClock="16:35:11"
+			time="00:08.803"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'admin' with focus on 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']"
+				itempath="/dom[@domain='192.168.1.4:8080']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Self"
+				id="a72058311ecb405e904428c1388bf99a"
+				timeout="30000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="99"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.101"
+			timeRelativeToTestModuleStartTime="00:09.101"
+			timeWallClock="16:35:11"
+			time="00:09.101"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 469;369.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']"
+				itempath="/dom[@domain='192.168.1.4:8080']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Self"
+				id="a72058311ecb405e904428c1388bf99a"
+				timeout="30000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="104"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.505"
+			timeRelativeToTestModuleStartTime="00:09.505"
+			timeWallClock="16:35:12"
+			time="00:09.505"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest' at 548;405.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']"
+				itempath="/dom[@domain='192.168.1.4:8080']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.Self"
+				id="a72058311ecb405e904428c1388bf99a"
+				timeout="30000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e3b80a21-cf74-477a-9c58-ec1a78e0eb6d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Open_program_studiu_entity"
+	namespace="Licenta_Nohai">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f46ae14c-e255-4ea5-a4bc-ceed847aa34c"
+		sx="1509"
+		sy="128"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c6cd0d6d-460b-4fd0-be6f-455a1b6963f0"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="1475,113,58,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Tabele
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-diu-c2"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="jhitranslate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ng-reflect-jhi-translate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='192.168.1.4:8080']//a[#'entity-menu']/?/?/span[@innertext='Tabele']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="4d40780c-60af-41f9-a629-3437a810fc5f">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABGAJIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwC5RRRT
+OUKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiqs16IpzGUJxjnNMk1AJ
+IyeWTtJGc1PMi+STLtU/PuHkdY0Rghx/nmlgvhNKI9hGe+aS3cJPcZDfe7KT3PpUt3tZnRSjyxlK
+Su1b8x2+8/55J+f/ANejfef88k/P/wCvUySpJ93cc99pAqSny+ZPt1/Ivx/zKu+8/wCeSfn/APXo
+33n/ADyT8/8A69WFcMzKM5U4NOo5fMPbr+Rfj/mVd95/zyT8/wD69G+8/wCeSfn/APXq1TY3EiBh
+nB9aOXzD26/kX4/5lZpbtVLGJAAMn/Oant5DLCrtgE56UT/6iT/dP8qZZf8AHqn4/wA6FpKxU3Gd
+Hm5Unfp6MnoooqzkCiiigAooooAKKKKAM66ZxdkCJWGRyUzmo53fz3/cqfmPOyp7iG5a5LRk7OMf
+NimS2920rlSdpJx8/asWmdEWtBLNnNyoMSqOeQmMcVYtP9fcf739TUdtBcpOrSE7RnPzZ7VJaf6+
+4/3v6mmt0aK3s527L8yW2/1C/j/Oo2lKspWQuCwBG3j86lSPbF5ZORyM0zyGKopk4QgjC+nrV6nN
+dXEQM08wDFRkdBz0FI07rHjG6TzBGMDqT0qTymEjujgb8cFcjpSeUEMPc+fG2T67xRZjVmxsUknn
+tG6yDbw29RkHAPUcdDTUkKW8QGcscZAzj8KmvUuhc3UtvsK+aibWHUlUHXPvVO3kkdhBJE0ZicoJ
+ByN46j8s96LMbjYnZ2KSL87LsJ3MmOfyp1l/x6p+P86WQOIJN7A/Kegx2pLL/j1T8f50vtGv/Lh+
+q/JkN1BOHDQyOQT03HirMEZjjwzs7dyTmpKKaVnc53JtWCiiiqJCiiigAooooAKKKKACqfkXCSO0
+booc5/zxVyipaua06rp3t17lXZef89U/L/61Gy8/56p+X/1qtUUuXzNPrD/lX3Iq7Lz/AJ6p+X/1
+qIo71ltJ5CjQySRngjI+YYzwKtUy1lFhcqCzC2kyCD92M9segJzTURqtzaNL7kaptkPmZJ+eRZD9
+Rtx/6CKztRtTbwqIHO6W6MmW7Eq2a1lZXUMhDKRkEHg1m6nOj3FvAjBmVi7gH7oAI/maYXtqZ7RX
+bKVMqEEYP+cVPbxmKFUbBIz0qSiko2dyJ1pTjy2SXkrBRRRVGAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAU11DoyMMqwwR7UUUARRW5hjMcU8iRkn5QFOPzGaW3torfPlggtjcSetFFBTbZNRRRQSFFF
+FABRRRQAUUUUAf/Z
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7f62ef0a-e6bf-4e54-84b8-ac69cba7c2b7"
+		sx="1544"
+		sy="226"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="648ab967-d7de-4ccf-9628-47277884c8c9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="1501,211,146,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Program studiu
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="_ngcontent-diu-c2"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="jhitranslate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ng-reflect-jhi-translate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='192.168.1.4:8080']//div[#'navbarResponsive']/ul/?/?/ul//span[@innertext='Program studiu']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ada131c2-9d87-4699-911f-4dceddbcb57c">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA8AQADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDLorR/
+sr/pt/45/wDXo/sr/pt/45/9ei6L9nLsZ1FaP9lf9Nv/ABz/AOvR/ZX/AE2/8c/+vRdB7OXYrpey
+pYvaAL5bnJJHPb/Cq1aP9lf9Nv8Axz/69H9lf9Nv/HP/AK9F0Hs5djOoq7LYRw48y4xnp8lM+z2/
+/P1/5DNLmj3KVCo9UirRVr7Pb/8AP1/5DNH2e3/5+v8AyGaOePcPq9X+UbeTrP5OwEeXEqHPqKr1
+a+z2/wDz9f8AkM0fZ7f/AJ+v/IZo549w+r1f5SrRVr7Pb/8AP1/5DNH2e3/5+v8AyGaOePcPq9X+
+Uq0Va+z2/wDz9f8AkM0fZ7f/AJ+v/IZo549w+r1f5SrRVr7Pb/8AP1/5DNH2e3/5+v8AyGaOePcP
+q9X+Uq0Va+z2/wDz9f8AkM0fZ7f/AJ+v/IZo549w+r1f5SrRVr7Pb/8AP1/5DNH2e3/5+v8AyGaO
+ePcPq9X+Uq0Va+z2/wDz9f8AkM0fZ7f/AJ+v/IZo549w+r1f5SrRVr7Pb/8AP1/5DNOjsopW2x3O
+TjP3DRzx7g6FRbop0Vo/2V/02/8AHP8A69H9lf8ATb/xz/69O6J9nLsU7P8A4/IP+ui/zrs65yDT
+fLuI387O1gcbff610dF7kuLjuFFFFAjJooorM7QooqaCNJMhn2t2oE3bUi2sV3YOPXFJV1YXW2eP
+AyTx+lQzQrEgy+X9KdiVNMzb0Az24IyC3T8RVjyIf+eSf98iq95/x8W3+9/UVrvHChjBjzv75NSl
+ds2nPljH5lDyIf8Ankn/AHyKPIh/55J/3yKty25EpWIZGM9elR+TJuC7TkjNOxCqX6kHkQ/88k/7
+5FHkQ/8APJP++RU7wyRjLLgULBKy7gnBosHP5kHkQ/8APJP++RR5EP8AzyT/AL5FT+RJv2bfmxnG
+RR5EuQNvJ5HNFg5/Mg8iH/nkn/fIo8iH/nkn/fIqd4ZExuXGelO+zTf3P1FFg5/MreRD/wA8k/75
+FHkQ/wDPJP8AvkVOYJQu4ocCmAZOBRYOdvqR+RD/AM8k/wC+RR5EP/PJP++RVg28oGSn6iny2xSI
+MMk/xe1Fhe08yp5EP/PJP++RR5EP/PJP++RU5hkVgpXk9OaBDIXKBfmHWiw+fzIPIh/55J/3yKPI
+h/55J/3yKuiLZavvQBs8GmyIzeWoiCkjjBHNFhKo31KnkQ/88k/75FVoVC6lKFAA29B+FaAhkZio
+XlevNUI/+QnL/u/4VLWxrCV1LXoW6KKKozHJ99frWpWQxwpI4OKd50v/AD0f/vo1UTlrys0atFZX
+nS/89H/76NHnS/8APR/++jVGHtEJRRRWZ6IVNAsRy0rYx29ahooE1c0FnHkM4U7VOMVWmEJXfG3J
+P3aYJWERj4wajptkRhZlS8/4+Lb/AHv6iti4lMQjIVScdSOlY1+wSWBj0Vif5Uv9oQ/3X/If41Cl
+Zs6JUnOMWl3Ne0dnkdmOTiktZCxcM3zEcZrJ/tCH+6/5D/Gj+0If7r/kP8arnRDw89dDXAMNs4lP
+J6DNPkVpGieMjaPesX+0If7r/kP8amXVbGMqzJKGHbjGfzoUkyZUJrWxLcxQCS5uXjBeO6iw+3JA
+/d9P1pYdQtZZ5FmuNhA4EmUH649uKLaT7fb3Eka5DXUbYPoPLz+gpt9pomkBFupDXSMxGB+72gH8
+M5rTc5dYtovMVa0VlC7SQRtORj605yftqDPG3/GsRbqK2LwbXxHI6jvgBjgdfSl/tCH+6/5D/Goc
+0mdMaE2r23NmIkyz5NU48+Yu3GcjGapf2hD/AHX/ACH+NH9oQ/3X/If41PMjRUJrobMyhomeRdjY
+xw3WmTKXto2XkKOayf7Qh/uv+Q/xo/tCH+6/5D/GnzolYea6G26l5onXBUd80gOZZlBw56flWL/a
+EP8Adf8AIf40f2hD/df8h/jRzoX1aZsbGSzdXPP8qcxAkgJ44P8AKsX+0If7r/kP8aP7Qh/uv+Q/
+xo50P6vPsbcaMs0jHGG6ViR/8hOX/d/wo/tCH+6/5D/Gm20glv5HXIBXv+FS5J2saU6UoKTfYu0U
+UVRmI33D9KSlYZUj2pyxOwJAGAcZyMVcTixO6GUU7yn3lccjrk0picFQR97pz1qjmsy19i/6af8A
+jtH2L/pp/wCO1boqbI7PaS7lT7F/00/8do+xf9NP/Hat0UWQe0l3Kn2L/pp/47R9i/6af+O1boos
+g9pLuVPsX/TT/wAdo+xf9NP/AB2rdFFkHtJdyp9i/wCmn/jtH2L/AKaf+O1boosg9pLuVPsX/TT/
+AMdqKW1ngljuLcCZkBUxn5SQcdD+ArQoosJzk1ZlexWDyDLbDEcx8zGMYyB/hVisSWd9O1iO0tsC
+3lXeYyOFJJzj06dPek1vVLm1VVhKruzk45pklu0txNE0gfAaWQ9P9tqm+xf9NP8Ax2p7eFLeBIY/
+uoMD39z71JSsi1OSKn2L/pp/47R9i/6af+O1boosg9pLuVPsX/TT/wAdo+xf9NP/AB2rdFFkHtJd
+yp9i/wCmn/jtH2L/AKaf+O1boosg9pLuVPsX/TT/AMdo+xf9NP8Ax2rdFFkHtJdyp9i/6af+O0fY
+v+mn/jtW6KLIPaS7lT7F/wBNP/HaPsX/AE0/8dq3RRZB7SXcpS2e2F28zOFJ6U379vHsQPtzkc8f
+lVu4/wCPaX/cP8qy6aMakm3qWQpkdjInzIowgPWnkYSAbdvz9M9Kp0UzLmP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="9985b0ef-60ed-4c32-9dcd-942f6dd336d9"
+	name="Licenta_NohaiRepository"
+	relativepath="Licenta_NohaiRepository.rxrep">
+		<codegen
+		classname="Licenta_NohaiRepository"
+		namespace="Licenta_Nohai">
+		</codegen>
+		<rootfolder
+		id="940bae96-c8f7-487f-bbcd-0944a724c83b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Open_program_studiu_entity.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="25.87s"
+		durationms="25865"
+		type="root"
+		rid="e200b87bd49ad77"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DragosN"
+		rxversion="9.3.1.0"
+		host="WIN-KQS0RV6BMUN"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3280x1080"
+		timestamp="5/18/2020 8:04:12 PM"
+		timestampiso="2020-05-18T17:04:12"
+		endtime="5/18/2020 8:04:37 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Login_as_admin_and_activate_user">
+		<detail>
+			Login_as_admin_and_activate_user
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.425"
+			timeRelativeToTestModuleStartTime="00:05.425"
+			timeWallClock="20:04:17"
+			time="00:05.425"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.CardJhCard.Autentificați' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='jhi-main']/div[2]/div/tag[@tagname='jhi-register']/div/div[2]//a[@innertext='autentificați']"
+				itempath="tag[@tagname='jhi-register']/div/div[2]//a[@innertext='autentificați']"
+				fullname="Licenta_NohaiRepository.ApplicationUnderTest.CardJhCard.Autentificați"
+				id="bd8fa4aa0ef349dc8f05f83b3af23619"
+				timeout="90000"
+				codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\Login_as_admin_and_activate_user.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.860"
+			timeRelativeToTestModuleStartTime="00:25.860"
+			timeWallClock="20:04:37"
+			time="00:25.860"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

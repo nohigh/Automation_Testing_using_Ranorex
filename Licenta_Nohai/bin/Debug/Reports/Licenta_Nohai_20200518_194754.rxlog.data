@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="13.74s"
+		durationms="13742"
+		type="root"
+		rid="64f4f3d339c984c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="1"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="1"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="1"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="DragosN"
+		rxversion="9.3.1.0"
+		host="WIN-KQS0RV6BMUN"
+		osversion="Windows 8.1 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="5/18/2020 7:47:54 PM"
+		timestampiso="2020-05-18T16:47:54"
+		endtime="5/18/2020 7:48:08 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Success"
+			duration="9.62s"
+			durationms="9618"
+			type="test-suite"
+			rid="331c421529df880"
+			totalerrorcount="0"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="1"
+			totalfailedtestcasecount="0"
+			totalblockedtestcasecount="0"
+			childsuccesscount="1"
+			childfailedcount="0"
+			childblockedcount="0"
+			totalsuccesscount="1"
+			totalfailedcount="0"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Licenta_Nohai"
+			headertext="Licenta_Nohai"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="9.59s"
+				durationms="9592"
+				type="test-case"
+				rid="8ea3731ffd1960"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="01_Start_Application"
+				testcontainerid="05e23513-853e-4aca-a9ad-e5995c96443f"
+				headertext="01_Start_Application"
+				displayName="01_Start_Application"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="9.58s"
+					durationms="9584"
+					type="setup-container"
+					rid="3e37426a54279e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="9.56s"
+						durationms="9560"
+						type="test-module"
+						rid="1579ef69579328d"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="12f01782-315b-4270-81e5-b7f81f268611"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.066"
+							timeRelativeToTestModuleStartTime="00:00.016"
+							timeWallClock="19:47:58"
+							time="00:00.066"
+							level="Info"
+							category="Website">
+							<message>
+								Opening web site 'http://192.168.1.4:8080/' with browser 'chrome' in maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\OpenBrowser.cs"
+								codeline="82"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.577"
+							timeRelativeToTestModuleStartTime="00:00.526"
+							timeWallClock="19:47:59"
+							time="00:00.577"
+							level="Info"
+							category="Wait">
+							<message>
+								Waiting 15s to exist. Associated repository item: 'ApplicationUnderTest.BineAiVenitInAplicațiaDeTestare'
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='jhi-main']/div[2]/div//h1[@innertext>'Bine ai venit în aplicația']"
+								itempath="body/tag[@tagname='jhi-main']/div[2]/div//h1[@innertext>'Bine ai venit în aplicația']"
+								fullname="Licenta_NohaiRepository.ApplicationUnderTest.BineAiVenitInAplicațiaDeTestare"
+								id="05bd3ef4613e415286e1437023c8d023"
+								timeout="15000"
+								codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\OpenBrowser.cs"
+								codeline="85"
+								itemindex="1"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.338"
+							timeRelativeToTestModuleStartTime="00:09.287"
+							timeWallClock="19:48:08"
+							time="00:09.338"
+							level="Info"
+							category="Validation">
+							<message>
+								Validating Exists on item 'ApplicationUnderTest.BineAiVenitInAplicațiaDeTestare'.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='jhi-main']/div[2]/div//h1[@innertext>'Bine ai venit în aplicația']"
+								itempath="body/tag[@tagname='jhi-main']/div[2]/div//h1[@innertext>'Bine ai venit în aplicația']"
+								fullname="Licenta_NohaiRepository.ApplicationUnderTest.BineAiVenitInAplicațiaDeTestare"
+								id="05bd3ef4613e415286e1437023c8d023"
+								timeout="60000"
+								codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\OpenBrowser.cs"
+								codeline="88"
+								itemindex="2"
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:09.525"
+							timeRelativeToTestModuleStartTime="00:09.474"
+							timeWallClock="19:48:08"
+							time="00:09.525"
+							level="Success"
+							category="Validation">
+							<message>
+								Element for item 'BineAiVenitInAplicațiaDeTestare' does exist.
+							</message>
+							<metainfo
+								type="repoitem"
+								path="/dom[@domain='192.168.1.4:8080']/body/tag[@tagname='jhi-main']/div[2]/div//h1[@innertext>'Bine ai venit în aplicația']"
+								itempath="body/tag[@tagname='jhi-main']/div[2]/div//h1[@innertext>'Bine ai venit în aplicația']"
+								fullname="Licenta_NohaiRepository.ApplicationUnderTest.BineAiVenitInAplicațiaDeTestare"
+								id="05bd3ef4613e415286e1437023c8d023"
+								timeout="60000"
+								codefile="c:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\OpenBrowser.cs"
+								codeline="89"
+								loglvl="Success"
+								itemindex="2">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

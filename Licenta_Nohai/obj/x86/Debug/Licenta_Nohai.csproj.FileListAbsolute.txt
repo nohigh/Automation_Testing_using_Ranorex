@@ -1,0 +1,11 @@
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\bin\Debug\Licenta_Nohai.rxtmg
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\bin\Debug\Licenta_Nohai.rxtst
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\bin\Debug\Licenta_Nohai.exe.config
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\bin\Debug\Licenta_Nohai.xml
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\bin\Debug\Licenta_Nohai.exe
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\bin\Debug\Licenta_Nohai.pdb
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\obj\x86\Debug\Licenta_Nohai.csprojResolveAssemblyReference.cache
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\obj\x86\Debug\Licenta_Nohai.exe
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\obj\x86\Debug\Licenta_Nohai.pdb
+C:\Users\DragosN\Documents\Ranorex\RanorexStudio Projects\Licenta_Nohai\Licenta_Nohai\bin\Debug\Excel_FSEGA.xlsx

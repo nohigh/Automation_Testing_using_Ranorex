@@ -1,0 +1,1848 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Licenta_Nohai</name>
+    </assembly>
+    <members>
+        <member name="T:Licenta_Nohai.Add_data_to_cadru_didactic">
+             <summary>
+            The Add_data_to_cadru_didactic recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Add_data_to_cadru_didactic.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_cadru_didactic.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_cadru_didactic.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Add_data_to_cadru_didactic.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_cadru_didactic.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_cadru_didactic.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_cadru_didactic.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_cadru_didactic.NumeCadruDidactic">
+            <summary>
+            Gets or sets the value of variable NumeCadruDidactic.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_cadru_didactic.PrenumeCadruDidactic">
+            <summary>
+            Gets or sets the value of variable PrenumeCadruDidactic.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_cadru_didactic.TitluCadruDidactic">
+            <summary>
+            Gets or sets the value of variable TitluCadruDidactic.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_cadru_didactic.EmailCadruDidactic">
+            <summary>
+            Gets or sets the value of variable EmailCadruDidactic.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_cadru_didactic.BirouCadruDidactic">
+            <summary>
+            Gets or sets the value of variable BirouCadruDidactic.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_cadru_didactic.DepartamentCadruDidactic">
+            <summary>
+            Gets or sets the value of variable DepartamentCadruDidactic.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Add_data_to_departament_entity">
+             <summary>
+            The Add_data_to_departament_entity recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Add_data_to_departament_entity.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_departament_entity.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_departament_entity.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Add_data_to_departament_entity.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_departament_entity.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_departament_entity.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_departament_entity.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_departament_entity.AddDepartament">
+            <summary>
+            Gets or sets the value of variable AddDepartament.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Add_data_to_program_studiu">
+             <summary>
+            The Add_data_to_program_studiu recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Add_data_to_program_studiu.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_program_studiu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_program_studiu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Add_data_to_program_studiu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_program_studiu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_program_studiu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_program_studiu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_program_studiu.Val_departament">
+            <summary>
+            Gets or sets the value of variable Val_departament.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_program_studiu.Var_program">
+            <summary>
+            Gets or sets the value of variable Var_program.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Add_data_to_student">
+             <summary>
+            The Add_data_to_student recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Add_data_to_student.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_student.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_student.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Add_data_to_student.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_student.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Add_data_to_student.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_student.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_student.NumeStudent">
+            <summary>
+            Gets or sets the value of variable NumeStudent.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_student.PrenumeStudent">
+            <summary>
+            Gets or sets the value of variable PrenumeStudent.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_student.NumarMatricol">
+            <summary>
+            Gets or sets the value of variable NumarMatricol.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_student.LucrareLicenta">
+            <summary>
+            Gets or sets the value of variable LucrareLicenta.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_student.LiniaDePredare">
+            <summary>
+            Gets or sets the value of variable LiniaDePredare.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Add_data_to_student.ProfesorCoordonator">
+            <summary>
+            Gets or sets the value of variable ProfesorCoordonator.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Delete_created_user">
+             <summary>
+            The Delete_created_user recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Delete_created_user.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_created_user.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_created_user.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Delete_created_user.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_created_user.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_created_user.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Delete_created_user.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Delete_data_from_cadru_didactic">
+             <summary>
+            The Delete_data_from_cadru_didactic recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Delete_data_from_cadru_didactic.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_cadru_didactic.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_cadru_didactic.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Delete_data_from_cadru_didactic.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_cadru_didactic.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_cadru_didactic.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Delete_data_from_cadru_didactic.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Delete_data_from_departament">
+             <summary>
+            The Delete_data_from_departament recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Delete_data_from_departament.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_departament.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_departament.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Delete_data_from_departament.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_departament.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_departament.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Delete_data_from_departament.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Delete_data_from_program_studiu">
+             <summary>
+            The Delete_data_from_program_studiu recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Delete_data_from_program_studiu.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_program_studiu.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_program_studiu.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Delete_data_from_program_studiu.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_program_studiu.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_program_studiu.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Delete_data_from_program_studiu.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Delete_data_from_student">
+             <summary>
+            The Delete_data_from_student recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Delete_data_from_student.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_student.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_student.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Delete_data_from_student.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_student.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Delete_data_from_student.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Delete_data_from_student.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Open_cadru_didactic">
+             <summary>
+            The Open_cadru_didactic recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Open_cadru_didactic.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_cadru_didactic.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_cadru_didactic.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Open_cadru_didactic.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_cadru_didactic.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Open_cadru_didactic.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Open_cadru_didactic.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Open_program_studiu_entity">
+             <summary>
+            The Open_program_studiu_entity recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Open_program_studiu_entity.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_program_studiu_entity.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_program_studiu_entity.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Open_program_studiu_entity.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_program_studiu_entity.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Open_program_studiu_entity.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Open_program_studiu_entity.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Open_departament_entity">
+             <summary>
+            The Open_departament_entity recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Open_departament_entity.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_departament_entity.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_departament_entity.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Open_departament_entity.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_departament_entity.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Open_departament_entity.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Open_departament_entity.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Change_name_and_surname">
+             <summary>
+            The Change_name_and_surname recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Change_name_and_surname.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Change_name_and_surname.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Change_name_and_surname.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Change_name_and_surname.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Change_name_and_surname.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Change_name_and_surname.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Change_name_and_surname.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Licenta_NohaiRepository">
+            <summary>
+            The class representing the Licenta_NohaiRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Licenta_NohaiRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Licenta_NohaiRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepository.Dropdown">
+            <summary>
+            The Dropdown folder.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Licenta_NohaiRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.AccountMenu">
+            <summary>
+            The AccountMenu item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.AccountMenuInfo">
+            <summary>
+            The AccountMenu item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Logout">
+            <summary>
+            The Logout item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.LogoutInfo">
+            <summary>
+            The Logout item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.BineAiVenitInAplicațiaDeTestare">
+            <summary>
+            The BineAiVenitInAplicațiaDeTestare item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.BineAiVenitInAplicațiaDeTestareInfo">
+            <summary>
+            The BineAiVenitInAplicațiaDeTestare item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Login">
+            <summary>
+            The Login item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.LoginInfo">
+            <summary>
+            The Login item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.RememberMe">
+            <summary>
+            The RememberMe item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.RememberMeInfo">
+            <summary>
+            The RememberMe item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Autentificare">
+            <summary>
+            The Autentificare item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.AutentificareInfo">
+            <summary>
+            The Autentificare item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.HomeLoggedMessage">
+            <summary>
+            The HomeLoggedMessage item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.HomeLoggedMessageInfo">
+            <summary>
+            The HomeLoggedMessage item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Email">
+            <summary>
+            The Email item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.EmailInfo">
+            <summary>
+            The Email item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.ConfirmPassword">
+            <summary>
+            The ConfirmPassword item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.ConfirmPasswordInfo">
+            <summary>
+            The ConfirmPassword item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Autentificare1">
+            <summary>
+            The Autentificare1 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Autentificare1Info">
+            <summary>
+            The Autentificare1 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.AdminMenu">
+            <summary>
+            The AdminMenu item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.AdminMenuInfo">
+            <summary>
+            The AdminMenu item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.GestiuneUtilizatori">
+            <summary>
+            The GestiuneUtilizatori item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.GestiuneUtilizatoriInfo">
+            <summary>
+            The GestiuneUtilizatori item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Path">
+            <summary>
+            The Path item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.PathInfo">
+            <summary>
+            The Path item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Setări">
+            <summary>
+            The Setări item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.SetăriInfo">
+            <summary>
+            The Setări item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.LastName">
+            <summary>
+            The LastName item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.LastNameInfo">
+            <summary>
+            The LastName item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.EntityMenu">
+            <summary>
+            The EntityMenu item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.EntityMenuInfo">
+            <summary>
+            The EntityMenu item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Departament">
+            <summary>
+            The Departament item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.DepartamentInfo">
+            <summary>
+            The Departament item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhCreateEntity">
+            <summary>
+            The JhCreateEntity item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhCreateEntityInfo">
+            <summary>
+            The JhCreateEntity item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldNumeDepartament">
+            <summary>
+            The FieldNumeDepartament item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldNumeDepartamentInfo">
+            <summary>
+            The FieldNumeDepartament item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Salvare">
+            <summary>
+            The Salvare item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.SalvareInfo">
+            <summary>
+            The Salvare item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Tabele">
+            <summary>
+            The Tabele item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.TabeleInfo">
+            <summary>
+            The Tabele item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.ProgramStudiu">
+            <summary>
+            The ProgramStudiu item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.ProgramStudiuInfo">
+            <summary>
+            The ProgramStudiu item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.CreareProgramStudiu">
+            <summary>
+            The CreareProgramStudiu item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.CreareProgramStudiuInfo">
+            <summary>
+            The CreareProgramStudiu item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldProgram">
+            <summary>
+            The FieldProgram item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldProgramInfo">
+            <summary>
+            The FieldProgram item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldDepartament">
+            <summary>
+            The FieldDepartament item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldDepartamentInfo">
+            <summary>
+            The FieldDepartament item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.CadruDidactic">
+            <summary>
+            The CadruDidactic item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.CadruDidacticInfo">
+            <summary>
+            The CadruDidactic item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.CreareCadruDidactic">
+            <summary>
+            The CreareCadruDidactic item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.CreareCadruDidacticInfo">
+            <summary>
+            The CreareCadruDidactic item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldNume">
+            <summary>
+            The FieldNume item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldNumeInfo">
+            <summary>
+            The FieldNume item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldPrenume">
+            <summary>
+            The FieldPrenume item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldPrenumeInfo">
+            <summary>
+            The FieldPrenume item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldTitlu">
+            <summary>
+            The FieldTitlu item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldTitluInfo">
+            <summary>
+            The FieldTitlu item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldEmail">
+            <summary>
+            The FieldEmail item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldEmailInfo">
+            <summary>
+            The FieldEmail item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldBirou">
+            <summary>
+            The FieldBirou item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldBirouInfo">
+            <summary>
+            The FieldBirou item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Student">
+            <summary>
+            The Student item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.StudentInfo">
+            <summary>
+            The Student item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldNumarMatricol">
+            <summary>
+            The FieldNumarMatricol item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldNumarMatricolInfo">
+            <summary>
+            The FieldNumarMatricol item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldLucrareLicenta">
+            <summary>
+            The FieldLucrareLicenta item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldLucrareLicentaInfo">
+            <summary>
+            The FieldLucrareLicenta item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldLinia">
+            <summary>
+            The FieldLinia item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldLiniaInfo">
+            <summary>
+            The FieldLinia item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldForma">
+            <summary>
+            The FieldForma item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldFormaInfo">
+            <summary>
+            The FieldForma item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldCadruDidactic">
+            <summary>
+            The FieldCadruDidactic item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.FieldCadruDidacticInfo">
+            <summary>
+            The FieldCadruDidactic item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhiConfirmDeleteStudent">
+            <summary>
+            The JhiConfirmDeleteStudent item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhiConfirmDeleteStudentInfo">
+            <summary>
+            The JhiConfirmDeleteStudent item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Ștergere">
+            <summary>
+            The Ștergere item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.ȘtergereInfo">
+            <summary>
+            The Ștergere item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhiConfirmDeleteCadruDidactic">
+            <summary>
+            The JhiConfirmDeleteCadruDidactic item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhiConfirmDeleteCadruDidacticInfo">
+            <summary>
+            The JhiConfirmDeleteCadruDidactic item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhiConfirmDeleteProgramStudiu">
+            <summary>
+            The JhiConfirmDeleteProgramStudiu item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhiConfirmDeleteProgramStudiuInfo">
+            <summary>
+            The JhiConfirmDeleteProgramStudiu item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhiConfirmDeleteDepartament">
+            <summary>
+            The JhiConfirmDeleteDepartament item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.JhiConfirmDeleteDepartamentInfo">
+            <summary>
+            The JhiConfirmDeleteDepartament item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.BtnBtnDanger">
+            <summary>
+            The BtnBtnDanger item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.BtnBtnDangerInfo">
+            <summary>
+            The BtnBtnDanger item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Password1">
+            <summary>
+            The Password1 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.Password1Info">
+            <summary>
+            The Password1 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.CardJhCard">
+            <summary>
+            The CardJhCard folder.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ApplicationUnderTestAppFolder.ContainerFluid">
+            <summary>
+            The ContainerFluid folder.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder">
+            <summary>
+            The CardJhCardFolder folder.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CardJhCard  folder.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Inregistrare">
+            <summary>
+            The Inregistrare item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.InregistrareInfo">
+            <summary>
+            The Inregistrare item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Login1">
+            <summary>
+            The Login1 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Login1Info">
+            <summary>
+            The Login1 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.InregistrațiUnContNou">
+            <summary>
+            The InregistrațiUnContNou item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.InregistrațiUnContNouInfo">
+            <summary>
+            The InregistrațiUnContNou item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.DivTagVăRugămSăVăVerificațiEmailul">
+            <summary>
+            The DivTagVăRugămSăVăVerificațiEmailul item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.DivTagVăRugămSăVăVerificațiEmailulInfo">
+            <summary>
+            The DivTagVăRugămSăVăVerificațiEmailul item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Autentificați">
+            <summary>
+            The Autentificați item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.AutentificațiInfo">
+            <summary>
+            The Autentificați item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Salvare">
+            <summary>
+            The Salvare item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.SalvareInfo">
+            <summary>
+            The Salvare item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Autentificați1">
+            <summary>
+            The Autentificați1 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Autentificați1Info">
+            <summary>
+            The Autentificați1 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Salvare1">
+            <summary>
+            The Salvare1 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.Salvare1Info">
+            <summary>
+            The Salvare1 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.AlertAlertSuccess">
+            <summary>
+            The AlertAlertSuccess item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.AlertAlertSuccessInfo">
+            <summary>
+            The AlertAlertSuccess item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.NgbAlert">
+            <summary>
+            The NgbAlert item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.CardJhCardFolder.NgbAlertInfo">
+            <summary>
+            The NgbAlert item info.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder">
+            <summary>
+            The ContainerFluidFolder folder.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ContainerFluid  folder.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.OptionTag0ROLEADMIN">
+            <summary>
+            The OptionTag0ROLEADMIN item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.OptionTag0ROLEADMINInfo">
+            <summary>
+            The OptionTag0ROLEADMIN item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.Editare">
+            <summary>
+            The Editare item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.EditareInfo">
+            <summary>
+            The Editare item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.Dezactivat">
+            <summary>
+            The Dezactivat item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.DezactivatInfo">
+            <summary>
+            The Dezactivat item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm">
+            <summary>
+            The BtnBtnDangerBtnSm item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSmInfo">
+            <summary>
+            The BtnBtnDangerBtnSm item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.FaIcon">
+            <summary>
+            The FaIcon item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.FaIconInfo">
+            <summary>
+            The FaIcon item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm1">
+            <summary>
+            The BtnBtnDangerBtnSm1 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm1Info">
+            <summary>
+            The BtnBtnDangerBtnSm1 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm2">
+            <summary>
+            The BtnBtnDangerBtnSm2 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm2Info">
+            <summary>
+            The BtnBtnDangerBtnSm2 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm3">
+            <summary>
+            The BtnBtnDangerBtnSm3 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm3Info">
+            <summary>
+            The BtnBtnDangerBtnSm3 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm4">
+            <summary>
+            The BtnBtnDangerBtnSm4 item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnDangerBtnSm4Info">
+            <summary>
+            The BtnBtnDangerBtnSm4 item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.OptionTag1ROLEUSER">
+            <summary>
+            The OptionTag1ROLEUSER item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.OptionTag1ROLEUSERInfo">
+            <summary>
+            The OptionTag1ROLEUSER item info.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnPrimaryBtnSm">
+            <summary>
+            The BtnBtnPrimaryBtnSm item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.ContainerFluidFolder.BtnBtnPrimaryBtnSmInfo">
+            <summary>
+            The BtnBtnPrimaryBtnSm item info.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Licenta_NohaiRepositoryFolders.DropdownAppFolder">
+            <summary>
+            The DropdownAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Licenta_NohaiRepositoryFolders.DropdownAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Dropdown  folder.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.DropdownAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Licenta_NohaiRepositoryFolders.DropdownAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Login_as_admin">
+             <summary>
+            The Login_as_admin recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Login_as_admin.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_admin.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_admin.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Login_as_admin.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_admin.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_admin.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Login_as_admin.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Login_as_admin_and_activate_user">
+             <summary>
+            The Login_as_admin_and_activate_user recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Login_as_admin_and_activate_user.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_admin_and_activate_user.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_admin_and_activate_user.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Login_as_admin_and_activate_user.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_admin_and_activate_user.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_admin_and_activate_user.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Login_as_admin_and_activate_user.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Login_as_new_created_user">
+             <summary>
+            The Login_as_new_created_user recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Login_as_new_created_user.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_new_created_user.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_new_created_user.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Login_as_new_created_user.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_new_created_user.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_new_created_user.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Login_as_new_created_user.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Login_as_user">
+             <summary>
+            The Login_as_user recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Login_as_user.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_user.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_user.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Login_as_user.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_user.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Login_as_user.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Login_as_user.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Logout_from_admin">
+             <summary>
+            The Logout_from_admin recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Logout_from_admin.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Logout_from_admin.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Logout_from_admin.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Logout_from_admin.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Logout_from_admin.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Logout_from_admin.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Logout_from_admin.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Logout_from_user">
+             <summary>
+            The Logout_from_user recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Logout_from_user.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Logout_from_user.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Logout_from_user.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Logout_from_user.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Logout_from_user.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Logout_from_user.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Logout_from_user.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Open_Student">
+             <summary>
+            The Open_Student recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Open_Student.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_Student.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_Student.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Open_Student.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Open_Student.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Open_Student.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Open_Student.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Recording1.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Licenta_Nohai.Register_new_user">
+             <summary>
+            The Register_new_user recording.
+             </summary>
+        </member>
+        <member name="F:Licenta_Nohai.Register_new_user.repo">
+            <summary>
+            Holds an instance of the Licenta_NohaiRepository repository.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Register_new_user.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Register_new_user.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Licenta_Nohai.Register_new_user.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Licenta_Nohai.Register_new_user.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Licenta_Nohai.Register_new_user.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Licenta_Nohai.Register_new_user.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

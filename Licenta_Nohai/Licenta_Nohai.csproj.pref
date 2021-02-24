@@ -1,0 +1,34 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Licenta_Nohai.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Login_as_admin.rxrec" />
+    <Element value="Logout_from_user.rxrec" />
+    <Element value="Licenta_Nohai.rxtst" />
+    <Element value="Add_data_to_student.rxrec" />
+    <Element value="Add_data_to_cadru_didactic.rxrec" />
+    <Element value="Add_data_to_program_studiu.rxrec" />
+    <Element value="Add_data_to_departament_entity.rxrec" />
+    <Element value="Change_name_and_surname.rxrec" />
+    <Element value="Login_as_new_created_user.rxrec" />
+    <Element value="Login_as_admin_and_activate_user.rxrec" />
+    <Element value="Register_new_user.rxrec" />
+    <Element value="Login_as_user.rxrec" />
+    <Element value="Logout_from_admin.rxrec" />
+    <Element value="Delete_created_user.rxrec" />
+    <Element value="Delete_data_from_cadru_didactic.rxrec" />
+    <Element value="Delete_data_from_student.rxrec" />
+    <Element value="Open_Student.rxrec" />
+    <Element value="Open_cadru_didactic.rxrec" />
+    <Element value="Open_program_studiu_entity.rxrec" />
+    <Element value="Open_departament_entity.rxrec" />
+    <Element value="OpenBrowser.rxrec" />
+    <Element value="Licenta_NohaiRepository.rxrep" />
+    <Element value="Recording1.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

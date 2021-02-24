@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9840a8fe-5658-4b35-971b-cc56123ceb1a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		True
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Delete_data_from_student"
+	namespace="Licenta_Nohai">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a47a0e49-d7c3-45eb-9827-03ba508e361c"
+		sx="1781"
+		sy="443"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b027f457-2541-4334-afba-8a89bd852fbc"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="webelement"
+				rect="1778,420,12,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						ng-fa-icon
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						ng-fa-icon
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						fa-icon
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ng-reflect-icon-prop"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='192.168.1.4:8080']/?/?/tag[@tagname='jhi-main']/div[2]/?/?/tag[@tagname='jhi-student']/div/div[1]/table/tbody/tr[1]/td[9]/div/button[3]/tag[@tagname='fa-icon']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a42fab42-ebb9-49af-a695-eef3add99a8e">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABVAGADASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKZz
+6mjn1NAD6KZz6mjn1NAD6KZz6mjn1NAD6KZz6mjn1NAD6KZz6mjn1NAD6KZz6mjn1NABRWP9tuP+
+en/jo/wo+23H/PT/AMdH+FZe2idP1afdGxRWP9tuP+en/jo/wo+23H/PT/x0f4Ue2iH1afdGxRWM
+19cKpPmdBnoP8KhGqXZGQGI+g/wo9qhrCTfY36KwTql2BkhvyH+FSR39w6BvMxn2H+FHtUDwlRdj
+aorH+23H/PT/AMdH+FH224/56f8Ajo/wo9tEX1afdGxRWP8Abbj/AJ6f+Oj/AAo+23H/AD0/8dFH
+toh9Wn3RBRRRXMd4UUUUANk/1bfQ023/ANQv+e9Ok/1bfQ1a0Zt0XkNHvR8k+1VFX0CUuWDZVk/1
+T/Q023/1K/jWpfqLSweOJMhwQzHmsu3/ANSv40Sjy6ChPnhfzJKKKKkYUUUUAFFFFABRRRQA2T/V
+t9DRZ3xgt/JTO5z/AAqSfwxSnkYNSWSqNRtsKB87dB/sNVw3sRUaVN3Qz+0MWskAbIYEYZTkGo7f
+/Ur+NFxHMskjrbCQPPIqkZyfmY+nsaZbXMc+RGpXHYjGfpTnGS9CadWm1ZbsnooorM1CiiigAooo
+oAtMCkUbwxo6ADeSobnvn0ppiQ2nmblDb/f06UsAETiYTfIPvYU5+nTH603ej2zJkIfM3gHPTHSt
+GY630GSQmOJndlBVC5Tvgc/SnWscqaha+bE8eWJGcHPyN3GRUk8iThj5iKrqQymP5umCM4/rT9Nu
+f36208glYJvidlwR1BGe5x396uCjcxqyny+RdS12+X8+dkrydOu7dx/49+lZkll9mFlbGRcqknzE
+EA5ZT/WtusvUZQdRiQMgKRMSWXcBkjHY+lay21Oan8asV/szBGZ2VArbTuz1/ChbZmC5ZFZxlVJ5
+NOlmDwMC+5zJu6YyMYzUhnVvLZZEQqADujyRj04rmSid95lMgg4PBFFKxLMWPJJyaSoNgooooAXc
+du3J25zjtSUUUAFRzRLNGUbIHqOooooTsJpNWZKJ70W4h+0DgY37Tu/PdUUMKwhsMzFjksxyaKKp
+zk9GRGlCLukSUUUVJoFFFFAH/9k=
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8ddaa6db-7753-41ac-b259-63c43a4b4cb8"
+		sx="1371"
+		sy="341"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="39379724-86b8-4e47-abde-5e66a74317cc"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="1347,331,75,27"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Ștergere
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="jhitranslate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="Dynamic HTML attribute."
+					name="ng-reflect-jhi-translate"
+					readonly="False"
+					type="System.String">
+					</dynamicattribute>
+				</element>
+				<path>
+					/dom[@domain='192.168.1.4:8080']//button[#'jhi-confirm-delete-student']/span[@innertext='Ștergere']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2ea3ad64-4b80-437e-b498-98282ead5585">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABDAJIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKiu
+LlLdcvyT0A71T/tX/pj/AOP/AP1qlzitzSNKcldI0aKzv7V/6Yf+P/8A1qP7V/6Yf+P/AP1qn2ke
+5XsKnY0aKzv7V/6Yf+P/AP1qP7V/6Yf+P/8A1qPaR7h7Cp2NGis7+1f+mH/j/wD9aj+1f+mH/j//
+ANaj2ke4ewqdjRorO/tX/ph/4/8A/Wo/tX/ph/4//wDWo9pHuHsKnY0aKzv7V/6Yf+P/AP1qP7V/
+6Yf+P/8A1qPaR7h7Cp2NGis7+1f+mH/j/wD9aj+1f+mH/j//ANaj2ke4ewqdjRorO/tX/ph/4/8A
+/Wqe2vo522EFG7AnrTU4vS4nRnFXaLVFFFWZBRRRQBjaixN44PYAD8qrVY1D/j9k/D+QqvXHL4me
+rT+BBRUq20rQecFyv60Q20s6syLwPWlZj5o9yiqvJI4EjLg0/wAl/wDns1FuC00gUEktwB+NWmgk
+RWLBfl64YEijU0lOzsVfJf8A57NR5L/89mqcqQASCAeh9aYzhWC4YkjOFUn+VGrE6lldsj8l/wDn
+s1Hkv/z2apVYMoZTkEZFLSHzsh8l/wDns1Hkv/z2apqKA5mQ+S//AD2ajyX/AOezVNRQHMyG2JaM
+kknnvUysVYMOoORUNr/qz9alPSgJ7s6Oiiiu48UKKKKAMXUP+P2T8P5Cq9WNQ/4/ZPw/kKr1xy+J
+nq0/gXoX9L87ccf6rvn19qnvd/2X/Rtvl/xbfSs5bmVYPJDYX9aIbmWBWVG4PrVqaSsYypScuYgs
+JfJu3kxnDdPzqzJAjRmWB9yjqp+8tVLRgs8hZQ4zyD+NXZWECtGibWcDdls4Hp0qempvUvz6DpSH
+gtlCKC2QDzxz9alto0j1VURQAIXGd2SeV6+lU3uAII18ti6HCFSOpPvVq0Z31YGW3eGTyW3ZOQ3K
+8jHH61rDWVzkraR5f63M1JXt7ODfZb8x794dvujHOMe/rUttdW0sYKwsxH395wfwwelarWObVIfM
+5W3aDOOuQBn9KpSRCG8jhKGVkt41GDgHBYVU4q10RSqScrMka2jFzNhfkjAIUtjJI9aYYoyqHCK2
+8Aqr5yPXrTricJeTcB0YBWGfaq/mRgqUjIIbOS2c1i2jpipNJk7QxPe+QibVB5bJzSNHE0chKxxk
+DK4kBz7daj+0EXRnUYJOcU13iYNsiKk9PmyB+lK6sPlloVbX/Vn61KelRWv+rP1qU9KhnRL4jo6K
+KK7jxQooooAx9SQrdsxHDAEfliqtb80KTJtkXI/lVX+zIP78n5j/AArnlSbd0dtPERUUmZVFav8A
+ZcP9+T8x/hR/ZcP9+T8x/hU+ykX9YgYjW6MxJLcnNH2ZPVq2/wCy4f78n5j/AAo/suH+/J+Y/wAK
+fs5FfW49zDNqnZnBHIIPINa+lXRnd47gq1xH0fbgsp/+vx+FS/2XD/fk/Mf4VFcaLDMo2yyo68qw
+I4P5VcIyi9TCvUhUV+ppVgaoEuNTk5OI0Vcj15P9RWhJY3UsQikvcJ0YohDEfXdSRaPbxJtV5Tzk
+kkZJ9+K0mm1ZGNGShPmZj/Zk9Wo+zJ6tW3/ZcP8Afk/Mf4Uf2XD/AH5PzH+FYezkd31uPcxPsyer
+UfZk9Wrb/suH+/J+Y/wo/suH+/J+Y/wo9nIPrce5jxoI1wM9c81IiGRwijJY4rU/suH+/J+Y/wAK
+ngtYrc5QEt6nrQqTvqZyxMbXW5NRRRXScAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFA
+BRRRQAUUUUAFFFFAH//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="9985b0ef-60ed-4c32-9dcd-942f6dd336d9"
+	name="Licenta_NohaiRepository"
+	relativepath="Licenta_NohaiRepository.rxrep">
+		<codegen
+		classname="Licenta_NohaiRepository"
+		namespace="Licenta_Nohai">
+		</codegen>
+		<rootfolder
+		id="940bae96-c8f7-487f-bbcd-0944a724c83b"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Delete_data_from_student.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
